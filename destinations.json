@@ -1,0 +1,29 @@
+{
+  "_readme": "REPLACE the EXAMPLE rows with real facilities. capabilities: ct, cta, thrombolysis, thrombectomy. eta_min = minutes from the ambulance's usual start point (update per call), or give lat/lon and run with --lat/--lon to estimate from distance. Remove \"example\": true once a row is real.",
+  "avg_speed_kmh": 40,
+  "max_bypass_extra_min": 30,
+  "max_bypass_extra_min_elevated": 15,
+  "destinations": [
+    {
+      "name": "EXAMPLE Primary clinic (no CT)",
+      "capabilities": [],
+      "eta_min": 10, "lat": null, "lon": null,
+      "available_24x7": true, "phone": "", "notes": "never recommended: no CT",
+      "example": true
+    },
+    {
+      "name": "EXAMPLE District hospital (CT, thrombolysis)",
+      "capabilities": ["ct", "thrombolysis"],
+      "eta_min": 35, "lat": null, "lon": null,
+      "available_24x7": true, "phone": "", "notes": "",
+      "example": true
+    },
+    {
+      "name": "EXAMPLE Comprehensive stroke centre (CT/CTA, thrombolysis, thrombectomy)",
+      "capabilities": ["ct", "cta", "thrombolysis", "thrombectomy"],
+      "eta_min": 90, "lat": null, "lon": null,
+      "available_24x7": true, "phone": "", "notes": "",
+      "example": true
+    }
+  ]
+}
