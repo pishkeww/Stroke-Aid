@@ -108,9 +108,6 @@ Runs the tests, then builds `dist\StrokeTriage\StrokeTriage.exe` with PyInstalle
 | `visualization.py` | On-screen overlays |
 | `selftest.py`, `metrics.py` | Healthy-face noise-floor tool and statistics helpers |
 | `version.py` | Version and source fingerprint |
-| `DESIGN.md` | Detailed design, assumptions and known limitations |
-
-See `DESIGN.md` for conventions (left/right, head pose signs), assumptions, and the list of known limitations.
 
 ## Known limitations
 
